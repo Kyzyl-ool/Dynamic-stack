@@ -1,8 +1,8 @@
 #include <stdio.h>
-#define DYNAMIC_STACK_DEFAULT_SIZE 32
+#define DYNAMIC_STACK_DEFAULT_SIZE 16
 
 
-typedef char dynamic_stack_t;
+typedef int dynamic_stack_t;
 typedef struct dynamic_stack
 {
 	dynamic_stack_t* data;

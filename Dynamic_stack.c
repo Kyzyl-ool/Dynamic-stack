@@ -4,7 +4,7 @@
 #include "Dynamic_stack.h"
 
 #define DEBUG
-#define POISON -111
+#define POISON -1999
 
 dynamic_stack* dynamic_stack_Construct()
 {
